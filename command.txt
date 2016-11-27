@@ -1,2 +1,2 @@
-gfortran -g -ffpe-trap=zero,invalid,overflow,underflow bugs.f90
+gfortran -g -ffpe-trap=zero,invalid,overflow,underflow bug.f90
 gfortran fixbug.f90 -o fixbug.exe
